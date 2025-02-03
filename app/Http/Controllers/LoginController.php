@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     public function index(){
-        return view('lala');
+        return view('layout.main');
+    }
+    public function dash_mas(){
+        return view('masyarakat.dash');
     }
 }
