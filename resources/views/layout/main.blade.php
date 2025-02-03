@@ -5,13 +5,11 @@
     <title>Kaiadmin - Bootstrap 5 Admin Dashboard</title>
     <meta
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-      name="viewport"
-    />
+      name="viewport"/>
     <link
       rel="icon"
       href="assets/assets/img/kaiadmin/favicon.ico"
-      type="image/x-icon"
-    />
+      type="image/x-icon"/>
 
     <!-- Fonts and icons -->
     <script src="assets/assets/js/plugin/webfont/webfont.min.js"></script>
@@ -43,49 +41,76 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
   </head>
   <body>
     <div class="wrapper">
       <!-- Sidebar -->
       @include('include.sidebar')
       <!-- End Sidebar -->
-      <div id="content-wrapper" class="d-flex flex-column">
-      <div id="content">
+
+      <div class="main-panel">
+        <div class="main-header">
+          <div class="main-header-logo">
+            <!-- Logo Header -->
+            <div class="logo-header" data-background-color="dark">
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/assets/img/kaiadmin/logo_light.svg"
+                  alt="navbar brand"
+                  class="navbar-brand"
+                  height="20"
+                />
+              </a>
+              <div class="nav-toggle">
+                <button class="btn btn-toggle toggle-sidebar">
+                  <i class="gg-menu-right"></i>
+                </button>
+                <button class="btn btn-toggle sidenav-toggler">
+                  <i class="gg-menu-left"></i>
+                </button>
+              </div>
+              <button class="topbar-toggler more">
+                <i class="gg-more-vertical-alt"></i>
+              </button>
+            </div>
+            <!-- End Logo Header -->
+          </div>
           <!-- Navbar Header -->
           @include('include.navbar')
           <!-- End Navbar -->
-          <!-- content-->
-          @yield('content')
-       </div>
-      <!-- end content-->
-      </div>
-      <footer class="footer">
-        <div class="container-fluid d-flex justify-content-between">
-          <nav class="pull-left">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="http://www.themekita.com">
-                  ThemeKita
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> Help </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> Licenses </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="copyright">
-            2024, made with <i class="fa fa-heart heart text-danger"></i> by
-            <a href="http://www.themekita.com">ThemeKita</a>
-          </div>
-          <div>
-            Distributed by
-            <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
-          </div>
         </div>
-      </footer>
+        <!-- content-->
+        @yield('content')
+        <!--end content-->
+        <footer class="footer">
+          <div class="container-fluid d-flex justify-content-between">
+            <nav class="pull-left">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="http://www.themekita.com">
+                    ThemeKita
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Help </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Licenses </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="copyright">
+              2024, made with <i class="fa fa-heart heart text-danger"></i> by
+              <a href="http://www.themekita.com">ThemeKita</a>
+            </div>
+            <div>
+              Distributed by
+              <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
     <!--   Core JS Files   -->
     <script src="assets/assets/js/core/jquery-3.7.1.min.js"></script>
@@ -106,6 +131,7 @@
 
     <!-- Datatables -->
     <script src="assets/assets/js/plugin/datatables/datatables.min.js"></script>
+
     <!-- Bootstrap Notify -->
     <script src="assets/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
@@ -149,11 +175,6 @@
         lineColor: "#ffa534",
         fillColor: "rgba(255, 165, 52, .14)",
       });
-      <script>
-        $(document).ready(function() {
-            $('#basic-datatables').DataTable();
-        });
-    </script>
     </script>
   </body>
 </html>
