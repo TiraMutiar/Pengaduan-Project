@@ -46,25 +46,19 @@
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#tables">
               <i class="fas fa-table"></i>
-              <p>Tables</p>
+              <p>Data Masyarakat</p>
             </a>
           </li>
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#tables">
               <i class="fas fa-table"></i>
-              <p>Tables</p>
+              <p>Data Pengaduan</p>
             </a>
           </li>
           <li class="nav-item">
             <a data-bs-toggle="collapse" href="#tables">
               <i class="fas fa-table"></i>
-              <p>Tables</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a data-bs-toggle="collapse" href="#tables">
-              <i class="fas fa-table"></i>
-              <p>Tables</p>
+              <p>Data Tanggapan</p>
             </a>
           </li>
         </ul>
