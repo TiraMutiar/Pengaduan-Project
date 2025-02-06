@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
   </head>
   <body>
@@ -86,12 +87,12 @@
         <footer class="footer">
           <div class="container-fluid d-flex justify-content-between">
             <div class="copyright">
-              2024, made with <i class="fa fa-heart heart text-danger"></i> by
+              <i class="fa fa-heart heart text-danger"></i> by
               <a href="#">Tira Mutiar</a>
             </div>
             <div>
               Distributed by
-              <a target="_blank" href="https://themewagon.com/">ThemeWagon</a>.
+              <a target="_blank" href="#">SMKN 3 BANJAR</a>.
             </div>
           </div>
         </footer>

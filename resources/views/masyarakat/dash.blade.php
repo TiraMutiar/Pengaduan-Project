@@ -21,14 +21,16 @@
           <div class="card card-stats card-round">
             <div class="card-body">
               <div class="row align-items-center">
-                <div class="col-icon" href="#">
+                <div class="col-icon">
                   <div class="icon-big text-center icon-primary bubble-shadow-small">
                     <i class="fas fa-pen-square"></i>
                   </div>
                 </div>
                 <div class="col col-stats ms-3 ms-sm-0">
                   <div class="numbers">
-                    <p class="card-category">Formulir</p>
+                    <a href="/formulir">
+                        <p class="card-category">Formulir</p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -39,16 +41,19 @@
           <div class="card card-stats card-round">
             <div class="card-body">
               <div class="row align-items-center">
-                <div class="col-icon" href="#">
+                <div class="col-icon">
                   <div class="icon-big text-center icon-success bubble-shadow-small">
                     <i class="fas fa-sticky-note"></i>
                   </div>
                 </div>
                 <div class="col col-stats ms-3 ms-sm-0">
                   <div class="numbers">
-                    <p class="card-category">Pengaduan</p>
+                    <a href="/datapengaduan">
+                        <p class="card-category">Pengaduan</p>
+                    </a>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>

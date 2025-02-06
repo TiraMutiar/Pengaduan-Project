@@ -27,10 +27,9 @@
     <div class="sidebar-wrapper scrollbar scrollbar-inner">
       <div class="sidebar-content">
         <ul class="nav nav-secondary">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a
-              data-bs-toggle="collapse"
-              href="#dashboard"
+              href="/dash-mas"
               class="collapsed"
               aria-expanded="false">
               <i class="fas fa-home"></i>
@@ -38,27 +37,33 @@
             </a>
           </li>
           <li class="nav-item">
-            <a data-bs-toggle="collapse" href="#forms">
+            <a  href="/formulir">
               <i class="fas fa-pen-square"></i>
-              <p>Forms</p>
+              <p>Formulir</p>
             </a>
           </li>
           <li class="nav-item">
-            <a data-bs-toggle="collapse" href="#tables">
+            <a href="/datamasyarakat">
               <i class="fas fa-table"></i>
               <p>Data Masyarakat</p>
             </a>
           </li>
           <li class="nav-item">
-            <a data-bs-toggle="collapse" href="#tables">
+            <a href="/datapengaduan">
               <i class="fas fa-table"></i>
               <p>Data Pengaduan</p>
             </a>
           </li>
           <li class="nav-item">
-            <a data-bs-toggle="collapse" href="#tables">
+            <a href="/datatanggapan">
               <i class="fas fa-table"></i>
               <p>Data Tanggapan</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fas fa-sign-out"></i>
+              <p>Logout</p>
             </a>
           </li>
         </ul>
